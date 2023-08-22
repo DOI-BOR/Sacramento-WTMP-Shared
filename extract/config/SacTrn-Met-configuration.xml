@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-exchange-configuration xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance">
+    <datastore id="www.grabdata2.com">
+        <datastore-type>merlin</datastore-type>
+        <path>https://www.grabdata2.com</path>
+    </datastore>
+    <datastore id="wat">
+        <datastore-type>dss</datastore-type>
+        <path>$WATERSHED/shared/DMS_SacTrnMet.dss</path>
+    </datastore>
+
+    <data-exchange-set id="Sac._BC_Redding MET Data" source-id="www.grabdata2.com"
+        template-name = "MET_Shasta - Keswick - Whiskeytown - Clear Creek" quality-version-id="1"
+        unit-system="SI">
+        <data-type>time-series</data-type>
+        <datastore-ref-a id="www.grabdata2.com"/>
+        <datastore-ref-b id="wat"/>
+    </data-exchange-set>
+    <data-exchange-set id="Trinity R. MET Data" source-id="www.grabdata2.com"
+        template-name = "MET_Trinity" quality-version-id="1"
+        unit-system="SI">
+        <data-type>time-series</data-type>
+        <datastore-ref-a id="www.grabdata2.com"/>
+        <datastore-ref-b id="wat"/>
+    </data-exchange-set>
+<!--    <data-exchange-set id="Trinity R. MET Data" source-id="www.grabdata2.com"
+        template-name = "MET_Trinity - Lewiston" quality-version-id="1"
+        unit-system="SI">
+        <data-type>time-series</data-type>
+        <datastore-ref-a id="www.grabdata2.com"/>
+        <datastore-ref-b id="wat"/>
+    </data-exchange-set>
+    <data-exchange-set id="Sac._BC_Lewiston MET Data" source-id="www.grabdata2.com"
+        template-name = "Sac._BC_Lewiston MET Data" quality-version-id="1"
+        unit-system="SI">
+        <data-type>time-series</data-type>
+        <datastore-ref-a id="www.grabdata2.com"/>
+        <datastore-ref-b id="wat"/>
+    </data-exchange-set>
+-->
+</data-exchange-configuration>
