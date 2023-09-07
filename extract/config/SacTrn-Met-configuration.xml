@@ -10,7 +10,7 @@
     </datastore>
 
     <data-exchange-set id="Sac._BC_Redding MET Data" source-id="www.grabdata2.com"
-        template-name = "MET_Shasta - Keswick - Whiskeytown - Clear Creek" quality-version-id="1"
+        template-name = "MET_Shasta-Keswick-Whiskeytown-ClearCk-SacramentoR" quality-version-id="1"
         unit-system="SI">
         <data-type>time-series</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
@@ -23,19 +23,11 @@
         <datastore-ref-a id="www.grabdata2.com"/>
         <datastore-ref-b id="wat"/>
     </data-exchange-set>
-<!--    <data-exchange-set id="Trinity R. MET Data" source-id="www.grabdata2.com"
-        template-name = "MET_Trinity - Lewiston" quality-version-id="1"
+    <data-exchange-set id="Trinity R. MET Data" source-id="www.grabdata2.com"
+        template-name = "MET_Trinity R" quality-version-id="1"
         unit-system="SI">
         <data-type>time-series</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
         <datastore-ref-b id="wat"/>
     </data-exchange-set>
-    <data-exchange-set id="Sac._BC_Lewiston MET Data" source-id="www.grabdata2.com"
-        template-name = "Sac._BC_Lewiston MET Data" quality-version-id="1"
-        unit-system="SI">
-        <data-type>time-series</data-type>
-        <datastore-ref-a id="www.grabdata2.com"/>
-        <datastore-ref-b id="wat"/>
-    </data-exchange-set>
--->
 </data-exchange-configuration>

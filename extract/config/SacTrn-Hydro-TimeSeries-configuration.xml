@@ -49,6 +49,25 @@
         <datastore-ref-a id="www.grabdata2.com"/>
         <datastore-ref-b id="wat"/>
     </data-exchange-set>
-    <!--    /-->
+    
+    <data-exchange-set id="BC_Sacramento R 1 of 1" source-id="www.grabdata2.com"
+         template-name = "BC_Sacramento R 1 of 1" quality-version-id="1" unit-system="English">
+        <data-type>time-series</data-type>
+        <datastore-ref-a id="www.grabdata2.com"/>
+        <datastore-ref-b id="wat"/>
+    </data-exchange-set>
+    
+    <data-exchange-set id="BC_Trinity R 1 of 2" source-id="www.grabdata2.com"
+         template-name = "BC_Trinity R 1 of 2" quality-version-id="0" unit-system="English">
+        <data-type>time-series</data-type>
+        <datastore-ref-a id="www.grabdata2.com"/>
+        <datastore-ref-b id="wat"/>
+    </data-exchange-set>
 
+    <data-exchange-set id="BC_Trinity R 2 of 2" source-id="www.grabdata2.com"
+         template-name = "BC_Trinity R 2 of 2" quality-version-id="0" unit-system="English">
+        <data-type>time-series</data-type>
+        <datastore-ref-a id="www.grabdata2.com"/>
+        <datastore-ref-b id="wat"/>
+    </data-exchange-set>
 </data-exchange-configuration>

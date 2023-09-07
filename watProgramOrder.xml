@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ProgramOrderManager ProgramOrderManagerName="Program Order Manager" Description="" ProgramOrderCount="4">
+<ProgramOrderManager ProgramOrderManagerName="Program Order Manager" Description="" ProgramOrderCount="5">
   <ProgramOrder0 ProgramOrderName="Default" Description="Default Program Order" ProgramOrderItemCnt="1">
     <ProgramOrderItem0 ProgramOrderName="ResSim" Description="Reservoir Op." Index="-2147483648" StandardModel="true" InputPosition="0" IconName="Images/rss18.gif" ShortName="RSS" />
   </ProgramOrder0>
@@ -12,11 +12,23 @@
     <ProgramOrderItem0 ProgramOrderName="ResSim" Description="Reservoir Op." Index="1" StandardModel="true" InputPosition="-1" IconName="Images/rss18.gif" ShortName="RSS" />
     <ProgramOrderItem1 ProgramOrderName="Scripting" Description="Scripting" Index="2" StandardModel="false" InputPosition="0" IconName="Images/scripting.gif" ShortName="Scripting" />
   </ProgramOrder2>
-  <ProgramOrder3 ProgramOrderName="ResSim Prescribed" Description="" ProgramOrderItemCnt="4">
+  <ProgramOrder3 ProgramOrderName="ResSim Prescribed" Description="" ProgramOrderItemCnt="3">
     <ProgramOrderItem0 ProgramOrderName="Scripting" Description="Scripting" Index="1" StandardModel="false" InputPosition="-1" IconName="Images/scripting.gif" ShortName="Scripting" />
-    <ProgramOrderItem1 ProgramOrderName="Scripting" Description="Scripting" Index="2" StandardModel="false" InputPosition="0" IconName="Images/scripting.gif" ShortName="Scripting" />
-    <ProgramOrderItem2 ProgramOrderName="ResSim" Description="Reservoir Op." Index="3" StandardModel="true" InputPosition="1" IconName="Images/rss18.gif" ShortName="RSS" />
-    <ProgramOrderItem3 ProgramOrderName="Scripting" Description="Scripting" Index="4" StandardModel="false" InputPosition="2" IconName="Images/scripting.gif" ShortName="Scripting" />
+    <ProgramOrderItem1 ProgramOrderName="ResSim" Description="Reservoir Op." Index="2" StandardModel="true" InputPosition="1" IconName="Images/rss18.gif" ShortName="RSS" />
+    <ProgramOrderItem2 ProgramOrderName="Scripting" Description="Scripting" Index="3" StandardModel="false" InputPosition="2" IconName="Images/scripting.gif" ShortName="Scripting" />
   </ProgramOrder3>
+  <ProgramOrder4 ProgramOrderName="W2 5-Res Plus Rivers" Description="" ProgramOrderItemCnt="11">
+    <ProgramOrderItem0 ProgramOrderName="Scripting" Description="Scripting" Index="1" StandardModel="false" InputPosition="-1" IconName="Images/scripting.gif" ShortName="Scripting" />
+    <ProgramOrderItem1 ProgramOrderName="CeQualW2" Description="Water Quality" Index="2" StandardModel="false" InputPosition="0" IconName="Images/w2.gif" ShortName="W2" />
+    <ProgramOrderItem2 ProgramOrderName="Scripting" Description="Scripting" Index="3" StandardModel="false" InputPosition="1" IconName="Images/scripting.gif" ShortName="Scripting" />
+    <ProgramOrderItem3 ProgramOrderName="CeQualW2" Description="Water Quality" Index="4" StandardModel="false" InputPosition="2" IconName="Images/w2.gif" ShortName="W2" />
+    <ProgramOrderItem4 ProgramOrderName="Scripting" Description="Scripting" Index="5" StandardModel="false" InputPosition="3" IconName="Images/scripting.gif" ShortName="Scripting" />
+    <ProgramOrderItem5 ProgramOrderName="CeQualW2" Description="Water Quality" Index="6" StandardModel="false" InputPosition="4" IconName="Images/w2.gif" ShortName="W2" />
+    <ProgramOrderItem6 ProgramOrderName="Scripting" Description="Scripting" Index="7" StandardModel="false" InputPosition="5" IconName="Images/scripting.gif" ShortName="Scripting" />
+    <ProgramOrderItem7 ProgramOrderName="CeQualW2" Description="Water Quality" Index="8" StandardModel="false" InputPosition="6" IconName="Images/w2.gif" ShortName="W2" />
+    <ProgramOrderItem8 ProgramOrderName="CeQualW2" Description="Water Quality" Index="9" StandardModel="false" InputPosition="7" IconName="Images/w2.gif" ShortName="W2" />
+    <ProgramOrderItem9 ProgramOrderName="Scripting" Description="Scripting" Index="10" StandardModel="false" InputPosition="3" IconName="Images/scripting.gif" ShortName="Scripting" />
+    <ProgramOrderItem10 ProgramOrderName="ResSim" Description="Reservoir Op." Index="11" StandardModel="true" InputPosition="10" IconName="Images/rss18.gif" ShortName="RSS" />
+  </ProgramOrder4>
 </ProgramOrderManager>
 

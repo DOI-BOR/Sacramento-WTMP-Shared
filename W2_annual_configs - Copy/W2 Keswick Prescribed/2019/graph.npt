@@ -1,0 +1,79 @@
+Hydrodynamic, constituent, and derived constituent names, formats, multipliers, and array viewer controls. U2 Code Version 3.71 Update JCV 8-15-13
+
+....................HNAME...................     FMTH   HMULT    HMIN    HMAX   HPLTC       #
+Timestep violations [NVIOL]                     (I10)     1.0   -1.00  -100.0     OFF       1
+Horizontal velocity [U], m/s                  (g10.3)     1.0   -1.00  -100.0     OFF       2
+Vertical velocity [W], m/s                    (g10.3)     1.0   -1.00  -100.0     OFF       3
+Temperature [T1], <o/>C                       (g10.3)     1.0  0.0000   30.00      ON       4
+Density [RHO], g/m^3                          (g10.3)     1.0   -1.00  -100.0     OFF       5
+Vertical eddy viscosity [AZ], m^2/s           (g10.3)     1.0   -1.00  -100.0     OFF       6
+Velocity shear stress [SHEAR], 1/s^2          (g10.3)     1.0   -1.00  -100.0     OFF       7
+Internal shear [ST], m^3/s                    (g10.3)     1.0   -1.00  -100.0     OFF       8
+Bottom shear [SB], m^3/s                      (g10.3)     1.0   -1.00  -100.0     OFF       9
+Longitudinal momentum [ADMX], m^3/s           (g10.3)     1.0   -1.00  -100.0     OFF      10
+Longitudinal momentum [DM], m^3/s             (g10.3)     1.0   -1.00  -100.0     OFF      11
+Horizontal density gradient [HDG], m^3/s      (g10.3)     1.0   -1.00  -100.0     OFF      12
+Vertical momentum [ADMZ], m^3/s               (g10.3)     1.0   -1.00  -100.0     OFF      13
+Horizontal pressure gradient [HPG], m^3/s     (g10.3)     1.0   -1.00  -100.0     OFF      14
+Gravity term channel slope [GRAV], m^3/s      (g10.3)     1.0   -1.00  -100.0     OFF      15
+ 
+....................CNAME....................    FMTC   CMULT    CMIN    CMAX   CPLTC       #
+TDS, g/m^3                                    (g10.3)     1.0    -1.0  -100.0     OFF       1
+Tracer, g/m^3                                 (g10.3)     1.0    -1.0  -100.0      ON       2
+Age, days                                     (g10.3)     1.0    -1.0  -100.0      ON       3
+Coliform, g/m^3                               (g10.3)     1.0    -1.0  -100.0     OFF       4
+ISS, g/m^3                                    (g10.3)     1.0    -1.0  -100.0     OFF       5
+Phosphate, mg/m^3                             (g10.3)     1.0    -1.0  -100.0     OFF       6
+Ammonium, mg/m^3                              (g10.3)     1.0    -1.0  -100.0     OFF       7
+Nitrate-Nitrite, g/m^3                        (g10.3)     1.0    -1.0  -100.0     OFF       8
+Dissolved silica, g/m^3                       (g10.3)     1.0    -1.0  -100.0     OFF       9
+Particulate silica, g/m^3                     (g10.3)     1.0    -1.0  -100.0     OFF      10
+Total iron, g/m^3                             (g10.3)     1.0    -1.0  -100.0     OFF      11
+Labile DOM, g/m^3                             (g10.3)     1.0    -1.0  -100.0     OFF      12
+Refractory DOM, g/m^3                         (g10.3)     1.0    -1.0  -100.0     OFF      13
+Labile POM, g/m^3                             (g10.3)     1.0    -1.0  -100.0     OFF      14
+Refractory POM, g/m^3                         (g10.3)     1.0    -1.0  -100.0     OFF      15
+CBOD1, g/m^3                                  (g10.3)     1.0    -1.0  -100.0     OFF      16
+CBOD1-P, g/m^3                                (g10.3)     1.0    -1.0  -100.0     OFF      17
+CBOD1-N, g/m^3                                (g10.3)     1.0    -1.0  -100.0     OFF      18
+Blue Green Algae, g/m^3                       (g10.3)     1.0    -1.0  -100.0     OFF      19
+Diatoms, g/m^3                                (g10.3)     1.0    -1.0  -100.0     OFF      19
+Other Algae, g/m^3                            (g10.3)     1.0    -1.0  -100.0     OFF      19
+Blue Green Algae 2, g/m^3                     (g10.3)     1.0    -1.0  -100.0     OFF      19
+Dissolved oxygen, g/m^3                       (g10.3)     1.0    -1.0  -100.0     OFF      20
+Inorganic carbon, g/m^3                       (g10.3)     1.0    -1.0  -100.0     OFF      21
+Alkalinity, g/m^3                             (g10.3)     1.0    -1.0  -100.0     OFF      22
+zooplankton1, mg/m^3                          (g10.3)  1000.0    -1.0  -100.0     OFF      23
+LDOM P, mg/m^3                                (g10.3)  1000.0    -1.0  -100.0     OFF      24
+RDOM P, mg/m^3                                (g10.3)  1000.0    -1.0  -100.0     OFF      25
+LPOM P, mg/m^3                                (g10.3)  1000.0    -1.0  -100.0     OFF      26
+RPOM P, mg/m^3                                (g10.3)  1000.0    -1.0  -100.0     OFF      27
+LDOM N, mg/m^3                                (g10.3)  1000.0    -1.0  -100.0     OFF      28
+RDOM N, mg/m^3                                (g10.3)  1000.0    -1.0  -100.0     OFF      29
+LPOM N, mg/m^3                                (g10.3)  1000.0    -1.0  -100.0     OFF      30
+RPOM N, mg/m^3                                (g10.3)  1000.0    -1.0  -100.0     OFF      31
+
+....................CDNAME...................   FMTCD  CDMULT   CDMIN   CDMAX  CDPLTC       #
+Dissolved organic carbon, g/m^3               (g10.3)     1.0    -1.0  -100.0     OFF       1
+Particulate organic carbon, g/m^3             (g10.3)     1.0    -1.0  -100.0     OFF       2
+Total organic carbon, g/m^3                   (g10.3)     1.0    -1.0  -100.0     OFF       3
+Dissolved organic nitrogen, g/m^3             (g10.3)     1.0    -1.0  -100.0     OFF       4
+Particulate organic nitrogen, g/m^3           (g10.3)     1.0    -1.0  -100.0     OFF       5
+Total organic nitrogen, g/m^3                 (g10.3)     1.0    -1.0  -100.0     OFF       6
+Total Kheldahl Nitrogen, g/m^3                (g10.3)     1.0    -1.0  -100.0     OFF       7
+Total nitrogen, g/m^3                         (g10.3)     1.0    -1.0  -100.0     OFF       8
+Dissolved organic phosphorus, mg/m^3          (g10.3)  1000.0    -1.0  -100.0     OFF       9
+Particulate organic phosphorus, mg/m^3        (g10.3)  1000.0    -1.0  -100.0     OFF      10
+Total organic phosphorus, mg/m^3              (g10.3)  1000.0    -1.0  -100.0     OFF      11
+Total phosphorus, mg/m^3                      (g10.3)  1000.0    -1.0  -100.0     OFF      12
+Algal production, g/m^2/day                   (g10.3)     1.0    -1.0  -100.0     OFF      13
+Chlorophyll a, mg/m^3                         (g10.3)     1.0    -1.0  -100.0     OFF      14
+Total algae, g/m^3                            (g10.3)     1.0    -1.0  -100.0     OFF      15
+Oxygen % Gas Saturation                       (g10.3)     1.0    -1.0  -100.0     OFF      16
+Total suspended Solids, g/m^3                 (g10.3)     1.0    -1.0  -100.0     OFF      17
+Total Inorganic Suspended Solids,g/m^3        (g10.3)     1.0    -1.0  -100.0     OFF      18
+Carbonaceous Ultimate BOD, g/m^3              (g10.3)     1.0    -1.0  -100.0     OFF      19
+pH                                            (g10.3)     1.0    -1.0  -100.0     OFF      20
+CO2                                           (g10.3)     1.0    -1.0  -100.0     OFF      21
+HCO3                                          (g10.3)     1.0    -1.0  -100.0     OFF      22
+CO3                                           (g10.3)     0.0    -1.0  -100.0     OFF      23
