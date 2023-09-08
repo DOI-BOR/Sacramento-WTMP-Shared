@@ -47,7 +47,7 @@ BR1            2     102       0       0       0       0       1 0.00000      0.
 BR2          105     116       0      89       0       0       1 0.00000      0.
 
 LOCATION     LAT    LONG    EBOT      BS      BE    JBDN
-WB 1      40.717 122.421 148.710       1       2       1
+WB 1      40.612 122.446 148.710       1       2       1
 
 INIT CND   TEMPI    ICEI  WTYPEC   GRIDC
 WB 1     11.0000 0.00000   FRESH   TRAP
