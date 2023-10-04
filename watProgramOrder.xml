@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ProgramOrderManager ProgramOrderManagerName="Program Order Manager" Description="" ProgramOrderCount="7">
+<ProgramOrderManager ProgramOrderManagerName="Program Order Manager" Description="" ProgramOrderCount="8">
   <ProgramOrder0 ProgramOrderName="Default" Description="Default Program Order" ProgramOrderItemCnt="1">
     <ProgramOrderItem0 ProgramOrderName="ResSim" Description="Reservoir Op." Index="-2147483648" StandardModel="true" InputPosition="0" IconName="Images/rss18.gif" ShortName="RSS" />
   </ProgramOrder0>
@@ -39,5 +39,6 @@
     <ProgramOrderItem0 ProgramOrderName="Scripting" Description="Scripting" Index="1" StandardModel="false" InputPosition="-1" IconName="Images/scripting.gif" ShortName="Scripting" />
     <ProgramOrderItem1 ProgramOrderName="CeQualW2" Description="Water Quality" Index="2" StandardModel="false" InputPosition="0" IconName="Images/w2.gif" ShortName="W2" />
   </ProgramOrder6>
+  <ProgramOrder7 ProgramOrderName="" Description="" ProgramOrderItemCnt="0" />
 </ProgramOrderManager>
 
