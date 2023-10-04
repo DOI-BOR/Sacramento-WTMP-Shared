@@ -5,7 +5,7 @@ TITLE C ...............................TITLE....................................
         Shasta Lake
         Simulation for 2014       
         Shasta Reservoir Model
-        ES   09/17/20
+        ES   05/10/23
         
         
         
@@ -34,10 +34,10 @@ DLT DATE    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD
            1.000
 
 DLT MAX   DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX
-         3600.00
+          60.000
 
 DLT FRN     DLTF    DLTF    DLTF    DLTF    DLTF    DLTF    DLTF    DLTF    DLTF
-           0.900
+           1.000
 
 DLT LIMI    VISC    CELC
 WB 1          ON      ON
