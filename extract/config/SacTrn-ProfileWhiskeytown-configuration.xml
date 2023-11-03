@@ -6,41 +6,21 @@
     </datastore>
     <datastore-profile id="wat">
         <datastore-type>csv</datastore-type>
-        <path>$WATERSHED/shared/keswick_profiles.csv</path>
+        <path>$WATERSHED/shared/whiskeytown_profiles.csv</path>
         <constituents>
             <constituent parameter="Temp-Water" unit="C"/>
             <constituent parameter="Depth" unit="ft"/>
         </constituents>
     </datastore-profile>
 
-    <data-exchange-set id="Sac._BC_Shasta WTemp Profiles" source-id="www.grabdata2.com"
-        template-name = "Sac._BC_Shasta WTemp Profiles" quality-version-id="1"
-        unit-system="SI">
-        <data-type>profile</data-type>
-        <datastore-ref-a id="www.grabdata2.com"/>
-        <datastore-ref-b id="wat"/>
-    </data-exchange-set>
-<!--    <data-exchange-set id="Sac._BC_Trinity Lake WTemp Profiles" source-id="www.grabdata2.com"
-        template-name = "Sac._BC_Trinity Lake WTemp Profiles" quality-version-id="1"
-        unit-system="SI">
-        <data-type>profile</data-type>
-        <datastore-ref-a id="www.grabdata2.com"/>
-        <datastore-ref-b id="wat"/>
-    </data-exchange-set>
     <data-exchange-set id="Whiskeytown Lake - MR Site 1 to 3 WTemp Profiles" source-id="www.grabdata2.com"
-        template-name = "Whiskeytown Lake - MR Site 1 to 3 WTemp Profiles" quality-version-id="1"
+        template-name = "Whiskeytown Lake - MR Site 1 to 3 WTemp Profiles" quality-version-id="2"
         unit-system="SI">
         <data-type>profile</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
         <datastore-ref-b id="wat"/>
     </data-exchange-set>
-    <data-exchange-set id="Keswick Res - MR WTemp Profiles" source-id="www.grabdata2.com"
-        template-name = "Keswick Res - MR WTemp Profiles" quality-version-id="1"
-        unit-system="SI">
-        <data-type>profile</data-type>
-        <datastore-ref-a id="www.grabdata2.com"/>
-        <datastore-ref-b id="wat"/>
-    </data-exchange-set>-->
+
 </data-exchange-configuration>
 
 
