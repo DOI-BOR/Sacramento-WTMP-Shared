@@ -13,8 +13,8 @@
         </constituents>
     </datastore-profile>
 
-    <data-exchange-set id="Sac._BC_Trinity Lake WTemp Profiles" source-id="www.grabdata2.com"
-        template-name = "Sac._BC_Trinity Lake WTemp Profiles" quality-version-id="1"
+    <data-exchange-set id="Profiles_Trinity WTemp" source-id="www.grabdata2.com"
+        template-name = "Profiles_Trinity WTemp" quality-version-id="1"
         unit-system="SI">
         <data-type>profile</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>

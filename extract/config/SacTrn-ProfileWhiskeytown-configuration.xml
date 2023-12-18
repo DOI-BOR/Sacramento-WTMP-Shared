@@ -13,8 +13,8 @@
         </constituents>
     </datastore-profile>
 
-    <data-exchange-set id="Whiskeytown Lake - MR Site 1 to 3 WTemp Profiles" source-id="www.grabdata2.com"
-        template-name = "Whiskeytown Lake - MR Site 1 to 3 WTemp Profiles" quality-version-id="2"
+    <data-exchange-set id="Profiles_Whiskeytown WTemp" source-id="www.grabdata2.com"
+        template-name = "Profiles_Whiskeytown WTemp" quality-version-id="2"
         unit-system="SI">
         <data-type>profile</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
