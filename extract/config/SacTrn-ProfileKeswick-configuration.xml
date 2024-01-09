@@ -13,8 +13,8 @@
         </constituents>
     </datastore-profile>
 
-    <data-exchange-set id="Profiles_Keswick" source-id="www.grabdata2.com"
-        template-name = "Profiles_Keswick" quality-version-id="2"
+    <data-exchange-set id="Profiles_Keswick WTemp" source-id="www.grabdata2.com"
+        template-name = "Profiles_Keswick WTemp" quality-version-id="2"
         unit-system="SI">
         <data-type>profile</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
