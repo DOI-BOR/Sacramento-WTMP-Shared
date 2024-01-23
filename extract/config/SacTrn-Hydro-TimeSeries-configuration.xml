@@ -27,8 +27,32 @@
         <datastore-ref-b id="wat"/>
     </data-exchange-set>
 
-    <data-exchange-set id="BC_Shasta Lake 1 of 1" source-id="www.grabdata2.com"
-        template-name = "BC_Shasta Lake 1 of 1" quality-version-id="1" 
+    <data-exchange-set id="BC_Shasta Lake 1 of 4" source-id="www.grabdata2.com"
+        template-name = "BC_Shasta Lake 1 of 4" quality-version-id="1" 
+        unit-system="English">
+        <data-type>time-series</data-type>
+        <datastore-ref-a id="www.grabdata2.com"/>
+        <datastore-ref-b id="wat"/>
+    </data-exchange-set>
+
+    <data-exchange-set id="BC_Shasta Lake 3 of 4" source-id="www.grabdata2.com"
+        template-name = "BC_Shasta Lake 3 of 4" quality-version-id="1" 
+        unit-system="English">
+        <data-type>time-series</data-type>
+        <datastore-ref-a id="www.grabdata2.com"/>
+        <datastore-ref-b id="wat"/>
+    </data-exchange-set>
+
+    <data-exchange-set id="BC_Shasta Lake 4 of 4" source-id="www.grabdata2.com"
+        template-name = "BC_Shasta Lake 4 of 4" quality-version-id="1" 
+        unit-system="English">
+        <data-type>time-series</data-type>
+        <datastore-ref-a id="www.grabdata2.com"/>
+        <datastore-ref-b id="wat"/>
+    </data-exchange-set>
+
+    <data-exchange-set id="BC_Shasta Lake 2 of 4" source-id="www.grabdata2.com"
+        template-name = "BC_Shasta Lake 2 of 4" quality-version-id="1" 
         unit-system="English">
         <data-type>time-series</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
