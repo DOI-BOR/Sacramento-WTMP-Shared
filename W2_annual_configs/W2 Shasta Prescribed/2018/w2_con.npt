@@ -5,7 +5,7 @@ TITLE C ...............................TITLE....................................
         Shasta Lake
         Simulation for 2018       
         Shasta Reservoir Model
-        ES   05/18/22
+        ES   04/13/22
         
         
         
@@ -13,7 +13,7 @@ TITLE C ...............................TITLE....................................
         
         
 GRID         NWB     NBR     IMX     KMX   NPROC  CLOSEC
-               1       5     235     151       1     OFF
+               1       5     235     151       1     OFF       
 
 IN/OUTFL     NTR     NST     NIW     NWD     NGT     NSP     NPI     NPU
                0      23       0       0       0       0       0       0
@@ -34,10 +34,10 @@ DLT DATE    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD
            1.000
 
 DLT MAX   DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX
-         3600.00
+           60.00
 
 DLT FRN     DLTF    DLTF    DLTF    DLTF    DLTF    DLTF    DLTF    DLTF    DLTF
-           0.900
+           1.000
 
 DLT LIMI    VISC    CELC
 WB 1          ON      ON
@@ -56,7 +56,7 @@ INIT CND   TEMPI    ICEI  WTYPEC   GRIDC
 WB 1       -1.00 0.01000   FRESH   TRAP
 
 CALCULAT     VBC     EBC     MBC     PQC     EVC     PRC
-WB 1          ON      ON      ON      ON      ON     OFF
+WB 1          ON      ON      ON      ON     OFF     OFF
 
 DEAD SEA   WINDC    QINC   QOUTC   HEATC
 WB 1          ON      ON      ON      ON
@@ -94,55 +94,55 @@ STR INT    STRIC   STRIC   STRIC   STRIC   STRIC   STRIC   STRIC   STRIC   STRIC
 BR 1         OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF
              OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF
              OFF     OFF     OFF     OFF     OFF
-BR 2
-BR 3
+BR 2    
+BR 3    
 BR 4
-BR 5
+BR 5    
 
 STR TOP    KTSTR   KTSTR   KTSTR   KTSTR   KTSTR   KTSTR   KTSTR   KTSTR   KTSTR
 BR 1           2       2       2       2       2       2       2       2       2
                2       2       2       2       2       2       2       2       2
                2       2       2       2       2
-BR 2
-BR 3
+BR 2     
+BR 3     
 BR 4
-BR 5
+BR 5     
 
 STR BOT    KBSTR   KBSTR   KBSTR   KBSTR   KBSTR   KBSTR   KBSTR   KBSTR   KBSTR
 BR 1          14     150     150     150     150     150     150     150     150
              150     150     150     150     150     150     150     150     150
              150     150     150     150     150
-BR 2
-BR 3
+BR 2     
+BR 3     
 BR 4
-BR 5
+BR 5     
 
 STR SINK   SINKC   SINKC   SINKC   SINKC   SINKC   SINKC   SINKC   SINKC   SINKC
 BR 1        LINE   POINT   POINT   POINT   POINT   POINT   POINT   POINT   POINT
            POINT   POINT   POINT   POINT   POINT   POINT   POINT    LINE    LINE
             LINE    LINE    LINE    LINE   POINT
-BR 2
-BR 3
+BR 2     
+BR 3     
 BR 4
-BR 5
+BR 5     
 
 STR ELEV    ESTR    ESTR    ESTR    ESTR    ESTR    ESTR    ESTR    ESTR    ESTR
 BR 1      316.08  317.60  311.20  304.80  287.12  280.72  274.32  252.98  248.72
-          244.45  243.84  231.65  219.46  287.12  256.64  226.16  288.54  273.32
+          244.45  243.84  231.65  219.46  287.12  256.64  226.16  288.54  273.32    
           254.09  245.56  237.74  228.45  212.00
 BR 2
-BR 3
+BR 3     
 BR 4
-BR 5
+BR 5     
 
 STR WIDT    WSTR    WSTR    WSTR    WSTR    WSTR    WSTR    WSTR    WSTR    WSTR
-BR 1      102.00
+BR 1      102.00                                                           
                                                                    76.20   76.20
-           76.20   76.20   76.20   76.20
-BR 2
-BR 3
+           76.20   76.20   76.20   76.20        
+BR 2     
+BR 3     
 BR 4
-BR 5
+BR 5     
 
 PIPES       IUPI    IDPI    EUPI    EDPI     WPI   DLXPI     FPI  FMINPI   WTHLC
 
@@ -187,43 +187,43 @@ PUMPS 2     PPUC    ETPU    EBPU    KTPU    KBPU
 
 
 WEIR SEG     IWR     IWR     IWR     IWR     IWR     IWR     IWR     IWR     IWR
-
+        
 
 WEIR TOP    KTWR    KTWR    KTWR    KTWR    KTWR    KTWR    KTWR    KTWR    KTWR
-
+        
 
 WEIR BOT    KBWR    KBWR    KBWR    KBWR    KBWR    KBWR    KBWR    KBWR    KBWR
-
+        
 
 WD INT      WDIC    WDIC    WDIC    WDIC    WDIC    WDIC    WDIC    WDIC    WDIC
-
+        
 
 WD SEG       IWD     IWD     IWD     IWD     IWD     IWD     IWD     IWD     IWD
-
+        
 
 WD ELEV      EWD     EWD     EWD     EWD     EWD     EWD     EWD     EWD     EWD
-
+        
 
 WD TOP      KTWD    KTWD    KTWD    KTWD    KTWD    KTWD    KTWD    KTWD    KTWD
-
+        
 
 WD BOT      KBWD    KBWD    KBWD    KBWD    KBWD    KBWD    KBWD    KBWD    KBWD
-
+        
 
 TRIB PLA    PTRC    PTRC    PTRC    PTRC    PTRC    PTRC    PTRC    PTRC    PTRC
-
+                
 
 TRIB INT    TRIC    TRIC    TRIC    TRIC    TRIC    TRIC    TRIC    TRIC    TRIC
-
+                
 
 TRIB SEG     ITR     ITR     ITR     ITR     ITR     ITR     ITR     ITR     ITR
-
+               
 
 TRIB TOP   ELTRT   ELTRT   ELTRT   ELTRT   ELTRT   ELTRT   ELTRT   ELTRT   ELTRT
-
+         
 
 TRIB BOT   ELTRB   ELTRB   ELTRB   ELTRB   ELTRB   ELTRB   ELTRB   ELTRB   ELTRB
-
+         
 
 DST TRIB    DTRC    DTRC    DTRC    DTRC    DTRC    DTRC    DTRC    DTRC    DTRC
 BR 1          ON
@@ -250,7 +250,7 @@ HPG           ON
 GRAV          ON
 
 SNP PRINT   SNPC    NSNP   NISNP
-WB 1          ON       1       9
+WB 1         OFF       1       9
 
 SNP DATE    SNPD    SNPD    SNPD    SNPD    SNPD    SNPD    SNPD    SNPD    SNPD
 WB 1       1.000
@@ -259,7 +259,7 @@ SNP FREQ    SNPF    SNPF    SNPF    SNPF    SNPF    SNPF    SNPF    SNPF    SNPF
 WB 1    .0416667
 
 SNP SEG     ISNP    ISNP    ISNP    ISNP    ISNP    ISNP    ISNP    ISNP    ISNP
-WB 1          26      29      32      47      58      65      71      76      77
+WB 1          26      29      32      47      58      65      71      76      77            
 
 SCR PRINT   SCRC    NSCR
 WB 1          ON       1
@@ -318,10 +318,10 @@ FLUXES      FLXC    NFLX
 WB 1         OFF       0
 
 FLX DATE    FLXD    FLXD    FLXD    FLXD    FLXD    FLXD    FLXD    FLXD    FLXD
-WB 1
+WB 1    
 
 FLX FREQ    FLXF    FLXF    FLXF    FLXF    FLXF    FLXF    FLXF    FLXF    FLXF
-WB 1
+WB 1    
 
 TSR PLOT    TSRC    NTSR   NITSR
               ON       1      80
@@ -358,22 +358,22 @@ WITH OUT    WDOC    NWDO   NIWDO
               ON       1       1
 
 WITH DAT    WDOD    WDOD    WDOD    WDOD    WDOD    WDOD    WDOD    WDOD    WDOD
-        1.020834
+        1.020834        
 
 WITH FRE    WDOF    WDOF    WDOF    WDOF    WDOF    WDOF    WDOF    WDOF    WDOF
-        .0416667
+        .0416667        
 
 WITH SEG    IWDO    IWDO    IWDO    IWDO    IWDO    IWDO    IWDO    IWDO    IWDO
-              77
+              77  
 
 RESTART     RSOC    NRSO    RSIC
              OFF       0     OFF
 
 RSO DATE    RSOD    RSOD    RSOD    RSOD    RSOD    RSOD    RSOD    RSOD    RSOD
-
+         
 
 RSO FREQ    RSOF    RSOF    RSOF    RSOF    RSOF    RSOF    RSOF    RSOF    RSOF
-
+         
 
 CST COMP     CCC    LIMC     CUF
              OFF      ON       6
@@ -629,64 +629,64 @@ LPOM_N       OFF
 RPOM_N       OFF
 
 CDT CON   CDTBRC  CDTBRC  CDTBRC  CDTBRC  CDTBRC  CDTBRC  CDTBRC  CDTBRC  CDTBRC
-TDS          OFF
-Gen1         OFF
-Gen2         OFF
-Gen3         OFF
-ISS1         OFF
-PO4          OFF
-NH4          OFF
-NO3          OFF
-DSI          OFF
-PSI          OFF
-FE           OFF
-LDOM         OFF
-RDOM         OFF
-LPOM         OFF
-RPOM         OFF
-ALG1         OFF
-DO           OFF
-TIC          OFF
-ALK          OFF
-ZOO1         OFF
-LDOM_P       OFF
-RDOM_P       OFF
-LPOM_P       OFF
-RPOM_P       OFF
-LDOM_N       OFF
-RDOM_N       OFF
-LPOM_N       OFF
-RPOM_N       OFF
+TDS          OFF 
+Gen1         OFF 
+Gen2         OFF 
+Gen3         OFF 
+ISS1         OFF 
+PO4          OFF 
+NH4          OFF 
+NO3          OFF 
+DSI          OFF 
+PSI          OFF 
+FE           OFF 
+LDOM         OFF 
+RDOM         OFF 
+LPOM         OFF 
+RPOM         OFF 
+ALG1         OFF 
+DO           OFF 
+TIC          OFF 
+ALK          OFF 
+ZOO1         OFF 
+LDOM_P       OFF 
+RDOM_P       OFF 
+LPOM_P       OFF 
+RPOM_P       OFF 
+LDOM_N       OFF 
+RDOM_N       OFF 
+LPOM_N       OFF 
+RPOM_N       OFF 
 
 CPR CON   CPRBRC  CPRBRC  CPRBRC  CPRBRC  CPRBRC  CPRBRC  CPRBRC  CPRBRC  CPRBRC
-TDS          OFF
-Gen1         OFF
-Gen2         OFF
-Gen3         OFF
-ISS1         OFF
-PO4          OFF
-NH4          OFF
-NO3          OFF
-DSI          OFF
-PSI          OFF
-FE           OFF
-LDOM         OFF
-RDOM         OFF
-LPOM         OFF
-RPOM         OFF
-ALG1         OFF
-DO           OFF
-TIC          OFF
-ALK          OFF
-ZOO1         OFF
-LDOM_P       OFF
-RDOM_P       OFF
-LPOM_P       OFF
-RPOM_P       OFF
-LDOM_N       OFF
-RDOM_N       OFF
-LPOM_N       OFF
-RPOM_N       OFF
+TDS          OFF 
+Gen1         OFF 
+Gen2         OFF 
+Gen3         OFF 
+ISS1         OFF 
+PO4          OFF 
+NH4          OFF 
+NO3          OFF 
+DSI          OFF 
+PSI          OFF 
+FE           OFF 
+LDOM         OFF 
+RDOM         OFF 
+LPOM         OFF 
+RPOM         OFF 
+ALG1         OFF 
+DO           OFF 
+TIC          OFF 
+ALK          OFF 
+ZOO1         OFF 
+LDOM_P       OFF 
+RDOM_P       OFF 
+LPOM_P       OFF 
+RPOM_P       OFF 
+LDOM_N       OFF 
+RDOM_N       OFF 
+LPOM_N       OFF 
+RPOM_N       OFF 
 
 EX COEF    EXH2O    EXSS    EXOM    BETA     EXC    EXIC
 WB 1     0.45000 0.10000 0.10000 0.40000     OFF     OFF
@@ -882,7 +882,7 @@ RSI FILE..................................RSIFN.................................
 WB 1
 
 QWD FILE..................................QWDFN.................................
-WB 1
+WB 1    
 
 QGT FILE..................................QGTFN.................................
 WB 1    qgt.npt - not used
@@ -1036,7 +1036,7 @@ PRF FILE..................................PRFFN.................................
 WB 1    prf.opt
 
 VPL FILE..................................VPLFN.................................
-WB 1    vpl.opt - not used
+WB 1    vpl.w2l
 
 CPL FILE..................................CPLFN.................................
 WB 1    cpl1.opt

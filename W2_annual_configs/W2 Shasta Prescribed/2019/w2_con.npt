@@ -5,7 +5,7 @@ TITLE C ...............................TITLE....................................
         Shasta Lake
         Simulation for 2019       
         Shasta Reservoir Model
-        ES   05/19/22
+        ES   04/12/23
         
         
         
@@ -34,10 +34,10 @@ DLT DATE    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD
            1.000
 
 DLT MAX   DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX
-         3600.00
+          60.000
 
 DLT FRN     DLTF    DLTF    DLTF    DLTF    DLTF    DLTF    DLTF    DLTF    DLTF
-           0.900
+           1.000
 
 DLT LIMI    VISC    CELC
 WB 1          ON      ON
@@ -56,7 +56,7 @@ INIT CND   TEMPI    ICEI  WTYPEC   GRIDC
 WB 1       -1.00 0.01000   FRESH   TRAP
 
 CALCULAT     VBC     EBC     MBC     PQC     EVC     PRC
-WB 1          ON      ON      ON      ON      ON     OFF
+WB 1          ON      ON      ON      ON     OFF     OFF
 
 DEAD SEA   WINDC    QINC   QOUTC   HEATC
 WB 1          ON      ON      ON      ON
@@ -250,7 +250,7 @@ HPG           ON
 GRAV          ON
 
 SNP PRINT   SNPC    NSNP   NISNP
-WB 1          ON       1       9
+WB 1         OFF       1       9
 
 SNP DATE    SNPD    SNPD    SNPD    SNPD    SNPD    SNPD    SNPD    SNPD    SNPD
 WB 1       1.000
@@ -361,7 +361,7 @@ WITH DAT    WDOD    WDOD    WDOD    WDOD    WDOD    WDOD    WDOD    WDOD    WDOD
         1.020834        
 
 WITH FRE    WDOF    WDOF    WDOF    WDOF    WDOF    WDOF    WDOF    WDOF    WDOF
-        .0416667       
+        .0416667        
 
 WITH SEG    IWDO    IWDO    IWDO    IWDO    IWDO    IWDO    IWDO    IWDO    IWDO
               77  
@@ -1036,7 +1036,7 @@ PRF FILE..................................PRFFN.................................
 WB 1    prf.opt
 
 VPL FILE..................................VPLFN.................................
-WB 1    vpl.opt - not used
+WB 1    vpl.w2l
 
 CPL FILE..................................CPLFN.................................
 WB 1    cpl1.opt

@@ -5,7 +5,7 @@ TITLE C ...............................TITLE....................................
         Shasta Lake
         Simulation for 2017       
         Shasta Reservoir Model
-        ES   05/18/22
+        ES   04/14/23
         
         
         
@@ -13,7 +13,7 @@ TITLE C ...............................TITLE....................................
         
         
 GRID         NWB     NBR     IMX     KMX   NPROC  CLOSEC
-               1       5     235     151       1      ON
+               1       5     235     151       1     OFF       
 
 IN/OUTFL     NTR     NST     NIW     NWD     NGT     NSP     NPI     NPU
                0      23       0       0       0       0       0       0
@@ -25,7 +25,7 @@ MISCELL     NDAY SELECTC HABTATC ENVIRPC AERATEC INITUWL
              100     TCD     OFF     OFF     OFF     OFF
 
 TIME CON  TMSTRT   TMEND    YEAR
-        1.000000366.0000    2017
+         1.00000 366.000    2017
 
 DLT CON      NDT  DLTMIN DLTINTR
                1 1.00000     OFF
@@ -34,10 +34,10 @@ DLT DATE    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD
            1.000
 
 DLT MAX   DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX
-         3600.00
+           60.00
 
 DLT FRN     DLTF    DLTF    DLTF    DLTF    DLTF    DLTF    DLTF    DLTF    DLTF
-           0.900
+           1.000
 
 DLT LIMI    VISC    CELC
 WB 1          ON      ON
@@ -56,7 +56,7 @@ INIT CND   TEMPI    ICEI  WTYPEC   GRIDC
 WB 1       -1.00 0.01000   FRESH   TRAP
 
 CALCULAT     VBC     EBC     MBC     PQC     EVC     PRC
-WB 1          ON      ON      ON      ON      ON     OFF
+WB 1          ON      ON      ON      ON     OFF     OFF
 
 DEAD SEA   WINDC    QINC   QOUTC   HEATC
 WB 1          ON      ON      ON      ON
@@ -250,7 +250,7 @@ HPG           ON
 GRAV          ON
 
 SNP PRINT   SNPC    NSNP   NISNP
-WB 1          ON       1       9
+WB 1         OFF       1       9
 
 SNP DATE    SNPD    SNPD    SNPD    SNPD    SNPD    SNPD    SNPD    SNPD    SNPD
 WB 1       1.000
@@ -361,8 +361,8 @@ WITH DAT    WDOD    WDOD    WDOD    WDOD    WDOD    WDOD    WDOD    WDOD    WDOD
         1.020834        
 
 WITH FRE    WDOF    WDOF    WDOF    WDOF    WDOF    WDOF    WDOF    WDOF    WDOF
-        .0416667
-        
+        .0416667        
+
 WITH SEG    IWDO    IWDO    IWDO    IWDO    IWDO    IWDO    IWDO    IWDO    IWDO
               77  
 
@@ -946,7 +946,7 @@ CTR FILE..................................CTRFN.................................
 TR1     ctr_tr1.npt - not used
 
 QDT FILE..................................QDTFN.................................
-BR1     Qdt_br1.npt
+BR1     qdt_br1.npt
 BR2     qin_br2.npt - not used
 BR3     qin_br3.npt - not used
 BR4     qin_br4.npt - not used
@@ -1036,7 +1036,7 @@ PRF FILE..................................PRFFN.................................
 WB 1    prf.opt
 
 VPL FILE..................................VPLFN.................................
-WB 1    vpl.opt - not used
+WB 1    vpl.w2l
 
 CPL FILE..................................CPLFN.................................
 WB 1    cpl1.opt
