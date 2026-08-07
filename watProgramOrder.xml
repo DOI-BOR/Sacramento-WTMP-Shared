@@ -26,8 +26,8 @@
     <ProgramOrderItem5 ProgramOrderName="CeQualW2" Description="Water Quality" Index="6" StandardModel="false" InputPosition="4" IconName="Images/w2.gif" ShortName="W2" />
     <ProgramOrderItem6 ProgramOrderName="Scripting" Description="Scripting" Index="7" StandardModel="false" InputPosition="5" IconName="Images/scripting.gif" ShortName="Scripting" />
     <ProgramOrderItem7 ProgramOrderName="CeQualW2" Description="Water Quality" Index="8" StandardModel="false" InputPosition="6" IconName="Images/w2.gif" ShortName="W2" />
-    <ProgramOrderItem8 ProgramOrderName="CeQualW2" Description="Water Quality" Index="9" StandardModel="false" InputPosition="7" IconName="Images/w2.gif" ShortName="W2" />
-    <ProgramOrderItem9 ProgramOrderName="Scripting" Description="Scripting" Index="10" StandardModel="false" InputPosition="3" IconName="Images/scripting.gif" ShortName="Scripting" />
+    <ProgramOrderItem8 ProgramOrderName="Scripting" Description="Scripting" Index="9" StandardModel="false" InputPosition="3" IconName="Images/scripting.gif" ShortName="Scripting" />
+    <ProgramOrderItem9 ProgramOrderName="CeQualW2" Description="Water Quality" Index="10" StandardModel="false" InputPosition="7" IconName="Images/w2.gif" ShortName="W2" />
     <ProgramOrderItem10 ProgramOrderName="ResSim" Description="Reservoir Op." Index="11" StandardModel="true" InputPosition="10" IconName="Images/rss18.gif" ShortName="RSS" />
     <ProgramOrderItem11 ProgramOrderName="Scripting" Description="Scripting" Index="12" StandardModel="false" InputPosition="3" IconName="Images/scripting.gif" ShortName="Scripting" />
   </ProgramOrder4>
